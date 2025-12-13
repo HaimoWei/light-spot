@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "resume": "Resume",
+    "openMenu": "Open menu"
+  },
+  "hero": {
+    "headlinePrefix": "Hi, I'm",
+    "headlineRole": "Full-Stack Developer",
+    "ctaProjects": "View Projects",
+    "ctaResume": "View Resume",
+    "scrollHint": "Scroll to explore"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "I build production-grade systems end-to-end — from architecture and APIs to CI/CD and cloud deployments.",
+    "skillsTitle": "Technical Skills",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "dataDevops": "Data & DevOps",
+    "tools": "Tools & Practices"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Production-deployed platforms with real users and real-world constraints.",
+    "personal": "Personal",
+    "team": "Team",
+    "personalProject": "Personal Project",
+    "teamProject": "Team Project",
+    "contributionLabel": "Contribution",
+    "liveDemo": "Live Demo",
+    "repo": "Repository",
+    "deployed": "Deployed"
+  },
+  "experience": {
+    "title": "Experience",
+    "education": "Education"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Open to full-time and internship opportunities. Let's connect.",
+    "info": "Info",
+    "openWidget": "Message",
+    "widgetHint": "You can message me here",
+    "widgetTab": "MESSAGE",
+    "close": "Close",
+    "send": "Send Message",
+    "contactLabel": "Contact (email or phone)",
+    "contactPlaceholder": "you@example.com or +61 ...",
+    "messageLabel": "Quick comment",
+    "messagePlaceholder": "Share the role, timeline, and what you’re looking for…",
+    "sending": "Sending…",
+    "sent": "Message sent. Thanks!",
+    "rateLimited": "Too many messages — try again in {seconds}s.",
+    "notConfigured": "Form not configured. Please email {email}.",
+    "failed": "Failed. Please email instead.",
+    "hint": "This form emails me directly and is rate-limited to prevent abuse."
+  },
+  "footer": {
+    "builtWith": "Built with Next.js + Tailwind, deployed with love for production."
+  },
+  "resume": {
+    "back": "Back",
+    "downloadPdf": "Download PDF",
+    "print": "Print",
+    "pdfHint": "Tip: put your PDF at public/resume.pdf",
+    "summary": "Summary",
+    "highlights": "Highlights",
+    "keywords": "Keywords",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "deployed": "Deployed",
+    "personal": "Personal",
+    "team": "Team",
+    "contributionLabel": "Contribution",
+    "liveDemo": "Live Demo",
+    "repo": "Repository",
+    "sections": "Sections"
+  }
+}

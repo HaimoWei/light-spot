@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "about": "关于我",
+    "projects": "项目",
+    "experience": "经历",
+    "contact": "联系",
+    "resume": "简历",
+    "openMenu": "打开菜单"
+  },
+  "hero": {
+    "headlinePrefix": "你好，我是",
+    "headlineRole": "全栈开发者",
+    "ctaProjects": "查看项目",
+    "ctaResume": "查看简历",
+    "scrollHint": "向下滚动探索"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "我专注于端到端交付：从架构设计、API与安全到CI/CD和云上部署，打造可在生产环境运行的系统。",
+    "skillsTitle": "技术栈",
+    "backend": "后端",
+    "frontend": "前端",
+    "dataDevops": "数据与运维",
+    "tools": "工具与实践"
+  },
+  "projects": {
+    "title": "精选项目",
+    "subtitle": "已生产部署的平台项目：有真实用户与真实约束。",
+    "personal": "个人",
+    "team": "团队",
+    "personalProject": "个人项目",
+    "teamProject": "团队项目",
+    "contributionLabel": "贡献",
+    "liveDemo": "在线演示",
+    "repo": "代码仓库",
+    "deployed": "已部署"
+  },
+  "experience": {
+    "title": "经历",
+    "education": "教育背景"
+  },
+  "contact": {
+    "title": "联系",
+    "subtitle": "开放全职与实习机会，欢迎联系。",
+    "info": "联系方式",
+    "openWidget": "留言",
+    "widgetHint": "可以在这里私信我",
+    "widgetTab": "留言",
+    "close": "关闭",
+    "send": "发送消息",
+    "contactLabel": "联系方式（邮箱或电话）",
+    "contactPlaceholder": "you@example.com 或 +61 ...",
+    "messageLabel": "留言",
+    "messagePlaceholder": "简单说明岗位/时间/你的需求…",
+    "sending": "发送中…",
+    "sent": "已发送，感谢！",
+    "rateLimited": "提交过于频繁，请 {seconds} 秒后再试。",
+    "notConfigured": "表单未配置，请直接邮件联系：{email}。",
+    "failed": "发送失败，请直接发邮件联系。",
+    "hint": "该表单会通过邮件直达我本人，并已设置限流防刷。"
+  },
+  "footer": {
+    "builtWith": "基于 Next.js + Tailwind 构建，面向生产部署。"
+  },
+  "resume": {
+    "back": "返回",
+    "downloadPdf": "下载 PDF",
+    "print": "打印",
+    "pdfHint": "提示：将 PDF 放到 public/resume.pdf",
+    "summary": "个人简介",
+    "highlights": "亮点",
+    "keywords": "关键词",
+    "skills": "技能",
+    "projects": "项目",
+    "education": "教育背景",
+    "deployed": "已部署",
+    "personal": "个人",
+    "team": "团队",
+    "contributionLabel": "贡献",
+    "liveDemo": "在线演示",
+    "repo": "代码仓库",
+    "sections": "目录"
+  }
+}

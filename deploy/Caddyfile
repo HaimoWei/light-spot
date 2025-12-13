@@ -1,0 +1,15 @@
+{
+  # Optional: set your email for Let's Encrypt notifications.
+  # email you@example.com
+}
+
+lightspot.uk, www.lightspot.uk {
+  encode zstd gzip
+  reverse_proxy app:3000
+
+  header {
+    X-Content-Type-Options "nosniff"
+    Referrer-Policy "strict-origin-when-cross-origin"
+    Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  }
+}

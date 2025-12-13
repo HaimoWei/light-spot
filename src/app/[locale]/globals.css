@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: 255 255 255;
+  --color-bg-muted: 248 250 252;
+  --color-card: 255 255 255;
+  --color-border: 226 232 240;
+  --color-text: 30 41 59;
+  --color-text-muted: 100 116 139;
+  --color-primary: 37 99 235;
+  --color-primary-2: 96 165 250;
+  --color-success: 16 185 129;
+}
+
+.dark {
+  --color-bg: 10 10 15;
+  --color-bg-muted: 17 24 39;
+  --color-card: 26 26 46;
+  --color-border: 45 55 72;
+  --color-text: 248 250 252;
+  --color-text-muted: 148 163 184;
+  --color-primary: 59 130 246;
+  --color-primary-2: 139 92 246;
+  --color-success: 16 185 129;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(var(--color-bg));
+  color: rgb(var(--color-text));
+}
+
+::selection {
+  background: rgb(var(--color-primary) / 0.28);
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  :root,
+  .dark {
+    --color-bg: 255 255 255;
+    --color-bg-muted: 248 250 252;
+    --color-card: 255 255 255;
+    --color-border: 226 232 240;
+    --color-text: 15 23 42;
+    --color-text-muted: 71 85 105;
+    --color-primary: 37 99 235;
+    --color-primary-2: 96 165 250;
+    --color-success: 16 185 129;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+}

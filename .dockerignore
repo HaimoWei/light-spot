@@ -1,0 +1,17 @@
+node_modules
+.next
+.pnpm-store
+
+.git
+.idea
+.vscode
+
+*.log
+*.tsbuildinfo
+
+.env
+.env.*
+.env.local
+.env.*.local
+
+coverage
