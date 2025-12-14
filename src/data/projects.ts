@@ -22,7 +22,18 @@ export const projects: Project[] = [
     contribution: 100,
     role: "Full Stack Developer & DevOps",
     roleZh: "全栈开发 & 运维",
-    collaboration: "personal"
+    collaboration: "personal",
+    demoAccess: {
+      credentials: [
+        {
+          role: { en: "Test Account", zh: "测试账号" },
+          accessUrl: "https://koalaswap.lightspot.uk",
+          identifierKind: "email",
+          identifier: "weihaimoau@gmail.com",
+          password: "weihaimo"
+        }
+      ]
+    }
   },
   {
     id: "shopthelook",
@@ -45,7 +56,32 @@ export const projects: Project[] = [
     contribution: 70,
     role: "Full Stack Developer / Team Leader",
     roleZh: "全栈开发 / 团队负责人",
-    collaboration: "team"
+    collaboration: "team",
+    demoAccess: {
+      credentials: [
+        {
+          role: { en: "User", zh: "用户" },
+          accessUrl: "https://styleshare.lightspot.uk",
+          identifierKind: "email",
+          identifier: "weihaimoau@gmail.com",
+          password: "weihaimo"
+        },
+        {
+          role: { en: "Seller", zh: "商家" },
+          accessUrl: "https://styleshare.lightspot.uk/admin",
+          identifierKind: "username",
+          identifier: "Nike",
+          password: "weihaimo"
+        },
+        {
+          role: { en: "ROOT Admin", zh: "ROOT 管理员" },
+          accessUrl: "https://styleshare.lightspot.uk/admin",
+          identifierKind: "username",
+          identifier: "styleshare",
+          password: "styleshare"
+        }
+      ]
+    }
   },
   {
     id: "aimenusystem",
@@ -91,6 +127,21 @@ export const projects: Project[] = [
     contribution: 50,
     role: "Co-Developer",
     roleZh: "联合开发者",
-    collaboration: "team"
+    collaboration: "team",
+    demoAccess: {
+      credentials: [
+        {
+          role: { en: "User", zh: "用户" },
+          accessUrl: "https://ctf.lightspot.uk",
+          identifierKind: "username",
+          identifier: "haimowei",
+          password: "weihaimo"
+        }
+      ],
+      note: {
+        en: "Admin access is available during interviews if needed.",
+        zh: "如需管理员功能演示，可在面试时提供。"
+      }
+    }
   }
 ];

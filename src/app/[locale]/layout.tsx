@@ -5,6 +5,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { MouseGlow } from "@/components/effects/MouseGlow";
+import { FishParticlesBackground } from "@/components/effects/FishParticlesBackground";
+import { FishCoinCounter } from "@/components/effects/FishCoinCounter";
 import { ContactWidget } from "@/components/contact/ContactWidget";
 import { routing } from "@/i18n/routing";
 
@@ -76,10 +78,14 @@ export default async function LocaleLayout({ children, params }: Props) {
         />
       </head>
       <body className="font-sans antialiased">
+        <div className="no-print pointer-events-none fixed inset-0 z-0">
+          <FishParticlesBackground />
+        </div>
+        <FishCoinCounter />
         <MouseGlow />
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
-            {children}
+            <div className="relative z-10">{children}</div>
             <ContactWidget />
           </NextIntlClientProvider>
         </ThemeProvider>

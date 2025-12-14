@@ -5,7 +5,6 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { personal } from "@/data/personal";
 import { Button } from "@/components/ui/Button";
-import { ParticleBackground } from "@/components/effects/ParticleBackground";
 import { AnimatedText } from "@/components/effects/AnimatedText";
 import { TypeWriter } from "@/components/effects/TypeWriter";
 import { ArrowDown, FileText, FolderKanban } from "lucide-react";
@@ -30,7 +29,6 @@ export function Hero({ locale }: Props) {
     <section id="top" className="relative overflow-hidden pb-20 pt-32">
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.18),transparent_60%)]" />
-        <ParticleBackground />
       </div>
 
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-4 lg:grid-cols-12">

@@ -16,6 +16,8 @@ export function TiltCard({ children, className, tiltAmount = 8 }: Props) {
   const ref = useRef<HTMLDivElement | null>(null);
   const [enabled, setEnabled] = useState(false);
 
+  const interactiveSelector = "button, a, input, textarea, select, summary, [data-tilt-lock]";
+
   const rotateX = useMotionValue(0);
   const rotateY = useMotionValue(0);
 
@@ -46,6 +48,10 @@ export function TiltCard({ children, className, tiltAmount = 8 }: Props) {
 
   function onPointerMove(event: React.PointerEvent<HTMLDivElement>) {
     if (!enabled || reduceMotion) return;
+    if (event.target instanceof Element && event.target.closest(interactiveSelector)) {
+      reset();
+      return;
+    }
     const element = ref.current;
     if (!element) return;
 

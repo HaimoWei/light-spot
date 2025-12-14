@@ -33,7 +33,18 @@
     "contributionLabel": "贡献",
     "liveDemo": "在线演示",
     "repo": "代码仓库",
-    "deployed": "已部署"
+    "deployed": "已部署",
+    "demoAccess": "Demo 账号",
+    "demoAccessPanelTitle": "测试账号",
+    "access": "入口",
+    "identifierEmail": "邮箱",
+    "identifierUsername": "用户名",
+    "password": "密码",
+    "copy": "复制",
+    "copied": "已复制",
+    "show": "显示",
+    "hide": "隐藏",
+    "close": "收起"
   },
   "experience": {
     "title": "经历",

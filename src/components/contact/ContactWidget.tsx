@@ -217,7 +217,7 @@ export function ContactWidget() {
             animate={reduceMotion ? { opacity: 1 } : { opacity: 1, y: 0, scale: 1 }}
             exit={reduceMotion ? { opacity: 0 } : { opacity: 0, y: 14, scale: 0.98 }}
             transition={reduceMotion ? { duration: 0 } : { duration: 0.18, ease: [0.2, 0.8, 0.2, 1] }}
-            className="w-[360px] max-w-[calc(100vw-3rem)] overflow-hidden rounded-2xl border border-border bg-bg/95 shadow-glow backdrop-blur-sm dark:bg-bg/75"
+            className="w-[440px] max-w-[calc(100vw-3rem)] overflow-hidden rounded-2xl border border-border bg-bg/95 shadow-glow backdrop-blur-sm dark:bg-bg/75"
             role="dialog"
             aria-label={t("title")}
           >
@@ -253,6 +253,7 @@ export function ContactWidget() {
                     placeholder={t("messagePlaceholder")}
                     {...form.register("message")}
                     disabled={status === "sending"}
+                    className="min-h-44 resize-y"
                   />
                 </div>
 

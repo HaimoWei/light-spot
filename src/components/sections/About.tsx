@@ -59,7 +59,7 @@ export function About({ locale }: Props) {
       <div className="mx-auto max-w-6xl px-4">
         <ScrollAnimation>
           <h2 className="text-3xl font-black tracking-tight text-text sm:text-4xl">{t("title")}</h2>
-          <p className="mt-3 max-w-3xl text-base leading-relaxed text-text-muted">{t("subtitle")}</p>
+          <p className="mt-3 text-base leading-relaxed text-text-muted">{t("subtitle")}</p>
         </ScrollAnimation>
 
         <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-12">

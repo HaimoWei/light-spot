@@ -33,7 +33,18 @@
     "contributionLabel": "Contribution",
     "liveDemo": "Live Demo",
     "repo": "Repository",
-    "deployed": "Deployed"
+    "deployed": "Deployed",
+    "demoAccess": "Demo Access",
+    "demoAccessPanelTitle": "Test Accounts",
+    "access": "Access",
+    "identifierEmail": "Email",
+    "identifierUsername": "Username",
+    "password": "Password",
+    "copy": "Copy",
+    "copied": "Copied",
+    "show": "Show",
+    "hide": "Hide",
+    "close": "Close"
   },
   "experience": {
     "title": "Experience",

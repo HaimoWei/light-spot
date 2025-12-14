@@ -1,5 +1,23 @@
 export type Locale = "en" | "zh";
 
+export type LocalizedText = {
+  en: string;
+  zh: string;
+};
+
+export type DemoAccessCredential = {
+  role: LocalizedText;
+  accessUrl?: string;
+  identifierKind: "email" | "username";
+  identifier: string;
+  password: string;
+};
+
+export type ProjectDemoAccess = {
+  credentials: DemoAccessCredential[];
+  note?: LocalizedText;
+};
+
 export type Project = {
   id: string;
   title: string;
@@ -16,6 +34,7 @@ export type Project = {
   role: string;
   roleZh: string;
   collaboration: "personal" | "team";
+  demoAccess?: ProjectDemoAccess;
 };
 
 export type SkillCategory = "backend" | "frontend" | "dataDevops" | "tools";
