@@ -70,6 +70,38 @@
     "failed": "发送失败，请直接发邮件联系。",
     "hint": "该表单会通过邮件直达我本人，并已设置限流防刷。"
   },
+  "holiday": {
+    "back": "返回",
+    "badgeHoliday": "节假日模式",
+    "badgeOffline": "在线 Demo 已暂停",
+    "title": "我去过圣诞节了",
+    "subtitle": "为了节省成本，假期期间我把线上服务器设置为自动关闭。如果你需要临时打开某个项目的 Live Demo，请邮件联系我。项目的详细描述都写在 GitHub 每个仓库的 README 中。",
+    "ctaEmail": "邮件联系我（打开 Demo）",
+    "ctaGithub": "查看 GitHub README",
+    "contactTitle": "需要访问 Live Demo？",
+    "contactBody": "发邮件告诉我你想看哪个项目，我会在方便的时间帮你临时打开。",
+    "githubTitle": "项目说明",
+    "githubBody": "每个仓库 README 都写了详细信息（功能、架构、部署方式、使用说明等）。",
+    "notesTitle": "假期期间可查看",
+    "note1": "源代码与提交历史",
+    "note2": "各项目 README 详细描述",
+    "note3": "本网站的项目概览与简历",
+    "note4": "假期结束或按需恢复 Live Demo",
+    "hint": "感谢理解，如需访问请随时邮件联系。"
+  },
+  "visits": {
+    "back": "返回",
+    "tracking": "统计",
+    "unlisted": "未公开",
+    "title": "站点统计",
+    "subtitle": "本站累计访问次数与打鱼金币总数。",
+    "visitsLabel": "访问次数",
+    "fishCoinsLabel": "打鱼金币",
+    "detailsTitle": "说明",
+    "visitsUpdatedAt": "访问更新时间",
+    "fishCoinsUpdatedAt": "金币更新时间",
+    "detailsHint": "访问次数：每次页面加载（开启 JS）计 1 次，已排除 /visits。本页打鱼金币：每打到一条鱼 +1。"
+  },
   "footer": {
     "builtWith": "基于 Next.js + Tailwind 构建，面向生产部署。"
   },

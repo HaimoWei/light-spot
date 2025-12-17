@@ -49,3 +49,10 @@ Desktop.ini
 
 # Vercel
 .vercel/
+
+# SSH keys (never commit)
+.ssh/
+
+# Large files
+*.tar
+*.tar.gz

@@ -70,6 +70,38 @@
     "failed": "Failed. Please email instead.",
     "hint": "This form emails me directly and is rate-limited to prevent abuse."
   },
+  "holiday": {
+    "back": "Back",
+    "badgeHoliday": "Holiday Mode",
+    "badgeOffline": "Live demos paused",
+    "title": "I’m away for Christmas",
+    "subtitle": "To save costs, I’ve configured my servers to automatically shut down during the holiday. If you need a live demo temporarily turned on, email me. In the meantime, each project’s GitHub README contains the full details.",
+    "ctaEmail": "Email to enable a demo",
+    "ctaGithub": "GitHub READMEs",
+    "contactTitle": "Need a Live Demo?",
+    "contactBody": "Email me which project you want to review and I can bring it back online for you.",
+    "githubTitle": "Project Documentation",
+    "githubBody": "Every repository has a detailed README (features, architecture, deployment, and usage).",
+    "notesTitle": "Available During Holiday",
+    "note1": "Source code & commit history",
+    "note2": "Detailed READMEs for each project",
+    "note3": "Portfolio & resume on this site",
+    "note4": "Live demos return after the holiday (or on request)",
+    "hint": "Thanks for understanding — email me anytime if you need access."
+  },
+  "visits": {
+    "back": "Back",
+    "tracking": "Stats",
+    "unlisted": "Unlisted",
+    "title": "Site Stats",
+    "subtitle": "Total visits and fish coins collected across all visitors.",
+    "visitsLabel": "Visits",
+    "fishCoinsLabel": "Fish coins",
+    "detailsTitle": "Notes",
+    "visitsUpdatedAt": "Visits updated",
+    "fishCoinsUpdatedAt": "Fish coins updated",
+    "detailsHint": "Visits increment once per page load (JS-enabled). Fish coins increment by +1 for each fish caught. /visits is excluded from visits."
+  },
   "footer": {
     "builtWith": "Built with Next.js + Tailwind, deployed with love for production."
   },

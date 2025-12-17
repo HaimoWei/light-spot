@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { MouseGlow } from "@/components/effects/MouseGlow";
 import { FishParticlesBackground } from "@/components/effects/FishParticlesBackground";
 import { FishCoinCounter } from "@/components/effects/FishCoinCounter";
+import { VisitTracker } from "@/components/analytics/VisitTracker";
 import { ContactWidget } from "@/components/contact/ContactWidget";
 import { routing } from "@/i18n/routing";
 
@@ -85,6 +86,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <MouseGlow />
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
+            <VisitTracker />
             <div className="relative z-10">{children}</div>
             <ContactWidget />
           </NextIntlClientProvider>

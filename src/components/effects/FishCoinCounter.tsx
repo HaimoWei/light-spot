@@ -38,8 +38,22 @@ export function FishCoinCounter() {
   useEffect(() => {
     if (!enabled || reduceMotion) return;
 
+    const reportKill = () => {
+      try {
+        if (navigator.sendBeacon) {
+          navigator.sendBeacon("/api/fish-coins");
+          return;
+        }
+      } catch {
+        // fall through
+      }
+
+      fetch("/api/fish-coins", { method: "POST", keepalive: true }).catch(() => {});
+    };
+
     const onKill = () => {
       setCoins((value) => value + 1);
+      reportKill();
 
       const id = nextIdRef.current++;
       const pop: Pop = {
